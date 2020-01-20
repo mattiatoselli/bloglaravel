@@ -1,3 +1,4 @@
+
 <?php
 
 /*
@@ -13,4 +14,7 @@
 
 Route::get('/', function () {
     return view('welcome');
+});
+Route::get('/ciao', function () {
+    return ('welcome2222222222');
 });
