@@ -32,6 +32,7 @@
       <li class="nav-item mx-0 mx-lg-1">
         @extends('layouts.navbaritem')
         @section('keynav', 'Page Title')
+        @show
        </li>
       </ul>
     </div>
