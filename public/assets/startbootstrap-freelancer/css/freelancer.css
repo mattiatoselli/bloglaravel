@@ -9855,3 +9855,14 @@ form .row:first-child .floating-label-form-group {
     min-height: 280px;
     padding: 20px;
 }
+.card{
+    margin: 10px;
+    min-height: 600px;
+    max-height: 600px;
+    background-color: snow;
+    box-shadow: 3px 2px 6px 6px grey;
+}
+.mb-5{
+    font-size: 22px;
+    text-align: justify;
+}
