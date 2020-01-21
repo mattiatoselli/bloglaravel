@@ -5,9 +5,7 @@
 @section('title', 'Page Title')
 
 @section('navbar')
-    @parent
-
-    <p>This is appended to the master sidebar.</p>
+@parent
 @endsection
 
 @section('summary')
@@ -31,6 +29,4 @@
 
 @section('footer')
 @parent
-
-    <p>This is appended to the master sidebar.</p>
 @endsection
