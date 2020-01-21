@@ -3,6 +3,7 @@
 <html>
     <head>
         <title>App Name - @yield('title')</title>
+        <link rel="stylesheet" type="text/css" href="{{ asset('assets/startbootstrap-freelancer/css/freelancer.css') }}">
     </head>
     <body>
         @section('sidebar')
