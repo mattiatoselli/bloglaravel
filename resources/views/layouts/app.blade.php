@@ -41,7 +41,7 @@
 </nav>
         @show
         
-        <div class="container">
+        <div class="container" style="margin-top: 15vw;">
             @yield('summary') <!-- implementare sommario dei corsi, nella sezione dedicata a quel determinato articolo -->
         </div>
 
