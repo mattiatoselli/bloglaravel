@@ -30,7 +30,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         @extends('layouts.navbaritem')
-        @section('keynav', 'chi-siamo')
+        @section('keynav', '#chi-siamo')
         @section('namenav', 'chi-siamo')
       </ul>
     </div>
