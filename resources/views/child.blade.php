@@ -4,7 +4,7 @@
 
 @section('title', 'Page Title')
 
-@section('sidebar')
+@section('navbar')
     @parent
 
     <p>This is appended to the master sidebar.</p>
@@ -13,4 +13,10 @@
 @section('content')
     <p class="mb-5">This is my body content.</p><br>
     <a href="#primo">vai al primo paragrafo</a>
+@endsection
+
+@section('footer')
+    @parent
+
+    <p>This is appended to the master footer.</p>
 @endsection
