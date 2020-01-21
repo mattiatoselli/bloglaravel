@@ -497,10 +497,6 @@ mark,
   height: auto;
 }
 
-.container{
-    padding-top: 10vh;
-}
-
 .figure {
   display: inline-block;
 }
