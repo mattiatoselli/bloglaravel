@@ -11,5 +11,6 @@
 @endsection
 
 @section('content')
-    <p>This is my body content.</p>
+    <p class="mb-5">This is my body content.</p><br>
+    <a href="#primo">vai al primo paragrafo</a>
 @endsection
