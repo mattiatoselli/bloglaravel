@@ -8,7 +8,7 @@
 
 @section('content')
     <p class="mb-5">
-	ERRORE 404 --> RISORSA NON TROVATA
+	<img class="img-fluid" src="http://sf.co.ua/2012/wallpaper-1920569.jpg">
     </p>
 @endsection
 
