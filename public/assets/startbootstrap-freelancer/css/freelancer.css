@@ -497,6 +497,10 @@ mark,
   height: auto;
 }
 
+.container{
+    margin: 8vh;
+}
+
 .figure {
   display: inline-block;
 }
