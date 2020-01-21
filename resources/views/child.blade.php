@@ -11,7 +11,12 @@
 @endsection
 
 @section('content')
-    <p>This is my body content.</p>
+    <p>This is my body content.</p><br>
+    <p>This is my body content.</p><br>
+    <p>This is my body content.</p><br>
+    <p>This is my body content.</p><br>
+    <p>This is my body content.</p><br>
+    <p>This is my body content.</p><br>
 @endsection
 
 @section('footer')
