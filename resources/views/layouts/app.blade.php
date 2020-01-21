@@ -29,9 +29,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-      @extends('layouts.navbaritem')
-      @section('keynav', 'Page Title')
-      @section('namenav', 'Page Title')
+      <li class="nav-item mx-0 mx-lg-1">
+        @extends('layouts.navbaritem')
+        @section('keynav', 'Page Title')
+       </li>
       </ul>
     </div>
   </div>
