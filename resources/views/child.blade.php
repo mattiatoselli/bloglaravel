@@ -5,9 +5,12 @@
 @section('title', 'Page Title')
 
 @section('navbar')
-    @parent
+@endsection
 
-    <p>This is appended to the master sidebar.</p>
+@section('summary')
+    <li class="nav-item mx-0 mx-lg-1">
+        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Collabora</a>
+    </li>
 @endsection
 
 @section('content')
@@ -16,7 +19,4 @@
 @endsection
 
 @section('footer')
-    @parent
-
-    <p>This is appended to the master footer.</p>
 @endsection
