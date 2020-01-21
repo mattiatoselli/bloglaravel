@@ -31,7 +31,73 @@
         </div>
         
         @section('footer')
-            This is the master footer.
+            <!-- Footer -->
+  <footer class="footer text-center" id="contact">
+    <div class="container">
+      <div class="row">
+
+        <!-- Footer Location -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Contattami</h4>
+          <p class="lead mb-0">toselli.mattia@gmail.com</p>
+        </div>
+
+        <!-- Footer Social Icons -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Seguimi</h4>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/mattia.toselli">
+            <i class="fab fa-fw fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/mattia-toselli-21041993/">
+            <i class="fab fa-fw fa-linkedin-in"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/mattia-toselli-21041993/">
+            <i class="fa fa-github" style="font-size:36px"></i>
+          </a>
+        </div>
+
+        <!-- Footer About Text -->
+        <div class="col-lg-4" style="align:left;">
+          <h4 class="text-uppercase mb-4">Risorse utili</h4>
+          <p class="lead mb-0">Temi Bootstrap:
+            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+            <p class="lead mb-0">Guida ufficiale Laravel:
+            <a href="https://laravel.com/docs/4.2/introduction">Laravel docs</a>.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; Kernel.it è un progetto Open Source.
+        <br>
+        Per contribuire o per eventuali richieste fare riferimento ai contatti sopra indicati.
+        <br>
+        Le repository su GitHub sono accessibili a tutti, ogni cambiamento sarà valutato, e se utile inserito nel master del progetto.
+      </small>
+    </div>
+  </section>
         @show
+        
+        
+        <!-- other javascript libraries and scroll to top function -->
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ asset('assets/startbootstrap-freelancer/vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ asset('assets/startbootstrap-freelancer/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{{ asset('assets/startbootstrap-freelancer/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
     </body>
 </html>
