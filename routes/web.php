@@ -13,7 +13,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('child');
 });
 Route::get('/ciao', function () {
     return ('welcome2222222222');
