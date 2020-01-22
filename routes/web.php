@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/wewe', function () {
     return view('child');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
