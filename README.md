@@ -8,9 +8,8 @@
 </p>
 
 ## Todo next
-- implementare form per modificare lo user
 - inserire colonna foto profilo negli user
-- possibilità per utenti di mettere foto profilo e modificarla
+- possibilità per utenti di mettere foto profilo e modificarla nel form di modifica user (link a risorsa esterna)
 
 ## About Laravel
 
