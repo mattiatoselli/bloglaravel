@@ -55,7 +55,11 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="card">
                                 <div class="avatar mx-auto white">
+                                @if(isset($user->image))
                                     <img src="{{ $user->image }}" class="rounded-circle img-profile" alt="{{ $user->name }} avatar">
+                                @else
+                                    <img src="https://images-na.ssl-images-amazon.com/images/I/51I1Tcg3B%2BL.jpg" class="rounded-circle img-profile" alt="{{ $user->name }} avatar">
+                                @endif
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title font-weight-bold">
