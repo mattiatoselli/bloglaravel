@@ -41,7 +41,7 @@
                         </div>
                         
                         <div class="form-group row">
-                            <label for="image" class="col-md-4 col-form-label text-md-right">Immagine profilo</label>
+                            <label for="image" class="col-md-4 col-form-label text-md-right">Link ad una immagine profilo</label>
 
                             <div class="col-md-6">
                                 <input id="image" type="url" value="{{ $user->image }}" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}">
