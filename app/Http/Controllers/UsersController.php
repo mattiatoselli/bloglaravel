@@ -27,10 +27,12 @@ class UsersController extends Controller
         $validatedData = request()->validate([
         'name' => ['required', 'string', 'max:255', 'min:8'],
         'email' => ['required', 'string', 'email', 'max:255', 'unique:users,{id}'],
+        'image'=> ['url'],
         ]);
         $user = User::find($id);
         $user->name = request('name');
         $user->email = request('email');
+        $user->image = request('image');
         $user->update();
         return redirect('/');
     }
