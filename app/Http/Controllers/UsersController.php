@@ -34,6 +34,7 @@ class UsersController extends Controller
         $user->name = request('name');
         $user->email = request('email');
         $user->image = request('image');
+        $user->description = request('description');
         $user->update();
         return redirect('/');
     }
