@@ -55,7 +55,7 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="card">
                                 <div class="avatar mx-auto white">
-                                    <img src="https://imagegallery.hwupgrade.it/gallery/3086/full/galaxy_s10_wallpaper_pika.jpg" class="rounded-circle img-profile" alt="Mattia Toselli avatar">
+                                    <img src="{{ $user->image }}" class="rounded-circle img-profile" alt="Mattia Toselli avatar">
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title font-weight-bold">
