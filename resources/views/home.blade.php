@@ -19,7 +19,7 @@
                             <div class="col-md-6">
                                 <input id="title" value="" type="text" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ old('title') }}" required autofocus>
 
-                                @error('name')
+                                @error('title')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -28,27 +28,13 @@
                         </div>
                         
                         <div class="form-group row">
-                            <label for="image" class="col-md-4 col-form-label text-md-right">Link ad una immagine profilo</label>
+                            <label for="body" class="col-md-4 col-form-label text-md-right">Articolo</label>
 
                             <div class="col-md-6">
-                                <input id="image" type="url" value="" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}">
-
-                                @error('image')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-                        
-                        <div class="form-group row">
-                            <label for="description" class="col-md-4 col-form-label text-md-right">Descrizione</label>
-
-                            <div class="col-md-6">
-                            <textarea id="description" class="form-control @error('description') is-invalid @enderror" name="description" class="form-control" rows="3"></textarea>
+                            <textarea id="body" class="form-control @error('body') is-invalid @enderror" name="body" class="form-control" rows="3">Inserisci un bell'articolo...</textarea>
                                 
 
-                                @error('description')
+                                @error('body')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
