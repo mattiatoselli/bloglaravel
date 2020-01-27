@@ -15,6 +15,11 @@ class CreateArticlesTable extends Migration
     {
         Schema::create('articles', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->bigInteger('userId'); //User Id
+            $table->string('title'); //titolo dell'articolo
+            $table->string('body'); //articolo
+            $table ->integer('state'); //1=bozza;2=pubblicato;3=accettato //solo gli admin di livello 2 possono 
+            //accettare articoli
             $table->timestamps();
         });
     }
@@ -27,5 +32,9 @@ class CreateArticlesTable extends Migration
     public function down()
     {
         Schema::dropIfExists('articles');
+        $table->dropColumn('userId');
+        $table->dropColumn('title');
+        $table->dropColumn('body');
+        $table->dropColumn('state');
     }
 }
