@@ -6,7 +6,7 @@
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="/users/{{ Auth::user()->id }}">
+                    <form method="POST" action="article">
                         @csrf
                         @method('PUT')
 
@@ -14,7 +14,7 @@
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" value="{{ $user->name }}"type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                <input id="name" value="ciao"type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -28,7 +28,7 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" value="{{ $user->email }}" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+                                <input id="email" type="email" value="" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -42,7 +42,7 @@
                             <label for="image" class="col-md-4 col-form-label text-md-right">Link ad una immagine profilo</label>
 
                             <div class="col-md-6">
-                                <input id="image" type="url" value="{{ $user->image }}" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}">
+                                <input id="image" type="url" value="" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}">
 
                                 @error('image')
                                     <span class="invalid-feedback" role="alert">
