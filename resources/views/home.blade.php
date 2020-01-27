@@ -3,7 +3,11 @@
 <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header">Scrivi un nuovo articolo</div>
+                <div class="card-header">
+                Consiglio: se devi implementare del codice, circondalo coi tag "pre" e "code"
+                in questo modo manterrai l'identazione del codice nell'articolo.
+                </div>
 
                 <div class="card-body">
                     <form method="POST" action="article">
