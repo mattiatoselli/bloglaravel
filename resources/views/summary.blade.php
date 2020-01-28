@@ -8,13 +8,11 @@
 
 
 
-
-sezione sommario dell'argomento--------
-
-
-
-@section('about')
-@parent
+@section('summary')
+<li>summary wewe </li>
+<li>summary wewe </li>
+<li>summary wewe </li>
+<li>summary wewe </li>
 @endsection
 
 @section('footer')
