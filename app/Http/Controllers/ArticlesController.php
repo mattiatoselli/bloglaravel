@@ -9,6 +9,7 @@ class ArticlesController extends Controller
 {
     public function store()
     {
-        dd('eccomi');
+        $argument = Argument::find(request('id'));
+        dd($argument->title);
     }
 }
