@@ -12,7 +12,7 @@
 |
 */
 //base
-Route::get('/', 'UsersController@index');
+Route::get('/', 'UsersController@index')->name('index');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 //users
