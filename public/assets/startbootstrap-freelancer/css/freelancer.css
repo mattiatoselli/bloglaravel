@@ -52,8 +52,6 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  backround: url("../img/kernel-panic.png");
-
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -69,7 +67,8 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  backround: url("https://forum.galaxy-rpg.ru/uploads/monthly_2019_04/videoblocks-system-error-kernel-panic-message-flashing-on-screen-computer-malfunction-computer-system-crash-error-message_slqa8jzdf_thumbnail-full05.png.c72c4ebf8d9120e2c2cf9f519e60b784.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 [tabindex="-1"]:focus {
