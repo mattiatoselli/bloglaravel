@@ -9,7 +9,7 @@
 
 
 @section('summary')
-<p class="mb-5">
+<p class="mb-5" style="font-size:24px;">
 <li>summary wewe </li>
 <li>summary wewe </li>
 <li>summary wewe </li>
