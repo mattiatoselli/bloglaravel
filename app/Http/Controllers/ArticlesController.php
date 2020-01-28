@@ -12,6 +12,7 @@ class ArticlesController extends Controller
     {
         $user = Auth::user();
         $argument = Argument::where('title',request('argument'))->get();
+        dd($argument[0]);
         $argId = $argument[0]->id;
         $validatedData = request()->validate([
         'title' => ['required', 'string', 'max:80', 'min:12'],
