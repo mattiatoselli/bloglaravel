@@ -9,12 +9,36 @@
 @endsection
 
 @section('summary')
-    <a href="#1">This is my body ssss.</a><br>
-    <p>This is my body sssss.</p><br>
-    <p>This is my body conssssstent.</p><br>
-    <p>This is my body ss.</p><br>
-    <p>This is my body contentssss.</p><br>
-    <p>This is my body content.</p><br>
+    <!-- lista argomenti -->
+    <div class="container" style="margin-top: 15vw;" id="argomenti">
+                <div class="row">
+                    @forelse ($arguments as $arg)
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="avatar mx-auto white">
+                                @if(isset($arg->image))
+                                    <img src="{{ $arg->image }}" class="rounded-circle img-profile" alt="{{ $arg->title }} avatar">
+                                @else
+                                    <img src="https://images-na.ssl-images-amazon.com/images/I/51I1Tcg3B%2BL.jpg" class="rounded-circle img-profile" alt="{{ $user->name }} avatar">
+                                @endif
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title font-weight-bold">
+                                        <a href="/argument/{{ $arg->id }}">{{ $arg->title }}</a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <!--Card-->
+                        </div>
+                        <!-- column -->
+                  @empty
+                    <p>No users</p>
+                  @endforelse
+                </div>
+                <!--row-->
+            </div>
+            <!--container-->
+    
 @endsection
 
 @section('about')
