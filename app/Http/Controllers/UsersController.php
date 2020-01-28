@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Input;
 use Hash;
 use DB;
 use App\User;
-use App\Argument
+use App\Argument;
 
 class UsersController extends Controller
 {
