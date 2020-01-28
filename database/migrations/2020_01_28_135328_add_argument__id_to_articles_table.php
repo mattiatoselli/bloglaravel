@@ -14,7 +14,7 @@ class AddArgumentIdToArticlesTable extends Migration
     public function up()
     {
         Schema::table('articles', function (Blueprint $table) {
-            //
+            $table->bigInteger("argumentId");
         });
     }
 
@@ -26,7 +26,7 @@ class AddArgumentIdToArticlesTable extends Migration
     public function down()
     {
         Schema::table('articles', function (Blueprint $table) {
-            //
+            $table->dropColumn("argumentId");
         });
     }
 }
