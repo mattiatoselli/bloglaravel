@@ -18,6 +18,7 @@
                             <select class="form-control" id="argument" name="argument">
                             @foreach($arguments as $arg)
                                 <option>{{ $arg->title }}</option>
+                            @endforeach
                             </select>
                           </div>
                           </div>
