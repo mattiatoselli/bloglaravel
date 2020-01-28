@@ -9,10 +9,12 @@
 
 
 @section('summary')
+<p class="mb-5">
 <li>summary wewe </li>
 <li>summary wewe </li>
 <li>summary wewe </li>
 <li>summary wewe </li>
+</p>
 @endsection
 
 @section('footer')
