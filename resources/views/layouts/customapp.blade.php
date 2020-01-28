@@ -49,6 +49,7 @@
         @show
         
         @section('about')
+        @if($users)
             <div class="container" style="margin-top: 15vw;" id="chi-siamo">
                 <div class="row">
                     @forelse ($users as $user)
@@ -81,6 +82,9 @@
                 <!--row-->
             </div>
             <!--container-->
+            @else
+            <!--nothing to show -->
+            @endif
           @show
         
         <div class="container" style="margin-top: 15vw;">
