@@ -9,7 +9,7 @@ class ArticlesController extends Controller
 {
     public function store()
     {
-        $argument = Argument::find(request('id'));
+        $argument = Argument::find(request('argument'));
         dd($argument->title);
     }
 }
