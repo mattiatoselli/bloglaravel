@@ -18,6 +18,7 @@
 <p>
 Nothing for you here stranger!
 </p>
+@endif
 @endsection
 
 @section('footer')
