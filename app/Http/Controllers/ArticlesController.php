@@ -11,6 +11,7 @@ class ArticlesController extends Controller
     public function store()
     {
         $user = Auth::user();
+        dd(request('argument'));
         $argument = Argument::where('title',request('argument'))->get();
         dd($argument[0]);
         $argId = $argument[0]->id;
