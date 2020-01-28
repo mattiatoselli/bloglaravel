@@ -24,4 +24,4 @@ Route::get('argument/{id}', 'ArgumentsController@index');
 Route::post('argument', 'ArgumentsController@store')->name('storeArgument');
 
 //articoli
-Route::post('article', 'ArticlesController@store')->('storeArticle');
+Route::post('article', 'ArticlesController@store')->name('storeArticle');
