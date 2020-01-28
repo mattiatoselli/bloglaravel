@@ -21,3 +21,4 @@ Route::put('users/{id}', 'UsersController@update');
 
 //argomenti
 Route::get('argument/{id}', 'ArgumentsController@index');
+Route::post('argument', 'ArgumentsController@store')->name('storeArgument');
