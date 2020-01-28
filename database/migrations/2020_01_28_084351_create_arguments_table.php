@@ -15,6 +15,8 @@ class CreateArgumentsTable extends Migration
     {
         Schema::create('arguments', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('title');
+            $table->string('image');
             $table->timestamps();
         });
     }
