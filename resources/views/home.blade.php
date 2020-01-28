@@ -17,7 +17,7 @@
                             <div class="col-md-6">
                             <select class="form-control" id="argument" name="argument">
                             @foreach($arguments as $arg)
-                                <option>{{ $arg->title }}</option>
+                                <option value="{{ $arg->id }}">{{ $arg->title }}</option>
                             @endforeach
                             </select>
                           </div>
