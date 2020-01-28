@@ -9,10 +9,9 @@
 
 
 
-@section('content')
-@parent
 sezione sommario dell'argomento--------
-@endsection
+
+
 
 @section('about')
 @parent
