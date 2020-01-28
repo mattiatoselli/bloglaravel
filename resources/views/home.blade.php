@@ -14,12 +14,12 @@
                         @csrf
                         <div class="form-group row">
                             <label for="argument" class="col-md-4 col-form-label text-md-right">Titolo</label>
-                            <select multiple class="form-control" id="argument">
-                              <option>1</option>
-                              <option>2</option>
-                              <option>3</option>
-                              <option>4</option>
-                              <option>5</option>
+                            <select class="form-control" id="argument" name="argument">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
                             </select>
                           </div>
                         <div class="form-group row">
