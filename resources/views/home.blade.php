@@ -14,6 +14,7 @@
                         @csrf
                         <div class="form-group row">
                             <label for="argument" class="col-md-4 col-form-label text-md-right">Titolo</label>
+                            <div class="col-md-6">
                             <select class="form-control" id="argument" name="argument">
                                 <option>1</option>
                                 <option>2</option>
@@ -21,6 +22,7 @@
                                 <option>4</option>
                                 <option>5</option>
                             </select>
+                          </div>
                           </div>
                         <div class="form-group row">
                             <label for="title" class="col-md-4 col-form-label text-md-right">Titolo</label>
