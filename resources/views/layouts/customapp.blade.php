@@ -49,7 +49,7 @@
         @show
         
         
-        <div class="container" style="margin-top: 10vw;">
+        <div class="container" style="margin-top: 10vh;">
             @yield('summary') <!-- implementare sommario dei corsi, nella sezione dedicata a quel determinato articolo -->
         </div>
 
