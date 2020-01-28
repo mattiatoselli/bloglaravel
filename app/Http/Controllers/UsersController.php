@@ -7,13 +7,15 @@ use Illuminate\Support\Facades\Input;
 use Hash;
 use DB;
 use App\User;
+use App\Argument
 
 class UsersController extends Controller
 {
     public function index()
     {
         $staff = User::where('staffrole', '1')->get();
-        return view('child', ['users' => $staff]);
+        $arguments = Argument::all();
+        return view('child', ['users' => $staff, 'arguments' => $arguments]);
     }
     
     public function edit($id)
