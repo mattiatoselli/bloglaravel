@@ -9,12 +9,14 @@
 
 
 @section('summary')
+@if($argument)
+<h1>{{ $argument->title }}</h1>
 <p class="mb-5" style="font-size:24px;">
-qui inserire lista articoli di quell'argomento
-<li>summary wewe </li>
-<li>summary wewe </li>
-<li>summary wewe </li>
-<li>summary wewe </li>
+<li>lista articoli</li>
+</p>
+@else
+<p>
+Nothing for you here stranger!
 </p>
 @endsection
 
