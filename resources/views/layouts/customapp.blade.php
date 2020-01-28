@@ -21,6 +21,7 @@
         body{
         background-image: url({{ asset('assets/startbootstrap-freelancer/img/kernel-panic.png') }})
         }
+        </style>
     </head>
     
     <body id="page-top">
