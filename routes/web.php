@@ -11,8 +11,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//base
 Route::get('/', 'UsersController@index');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+//users
 Route::get('users/{id}/edit', 'UsersController@edit');
 Route::put('users/{id}', 'UsersController@update');
+
+//argomenti
+Route::get('argument/{id}', 'ArgumentsController@index');
