@@ -33,9 +33,5 @@ class CreateArticlesTable extends Migration
     public function down()
     {
         Schema::dropIfExists('articles');
-        $table->dropColumn('userId');
-        $table->dropColumn('title');
-        $table->dropColumn('body');
-        $table->dropColumn('state');
     }
 }
