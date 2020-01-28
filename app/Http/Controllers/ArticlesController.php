@@ -11,9 +11,8 @@ class ArticlesController extends Controller
     public function store()
     {
         $user = Auth::user();
-        dd(request('argument'));
-        $argument = Argument::where('title',request('argument'))->get();
-        dd($argument[0]);
+        $argument = Argument::find(request('argument'));
+        dd($argument);
         $argId = $argument[0]->id;
         $validatedData = request()->validate([
         'title' => ['required', 'string', 'max:80', 'min:12'],
