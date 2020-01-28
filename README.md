@@ -8,8 +8,8 @@
 </p>
 
 ## Todo next
-- inserire colonna foto profilo negli user
-- possibilità per utenti di mettere foto profilo e modificarla nel form di modifica user (link a risorsa esterna)
+- Implementare tabella argomenti (python, laravel, php, aws, ecc...)
+- implementare possibilità di creare argomenti ed inserire immagine associata.
 
 ## About Laravel
 
