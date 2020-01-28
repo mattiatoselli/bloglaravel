@@ -14,7 +14,7 @@ class AddArgumentIdToArticlesTable extends Migration
     public function up()
     {
         Schema::table('articles', function (Blueprint $table) {
-            $table->bigInteger("argumentId");
+            $table->bigInteger("argumentId")->nullable();
             
         });
     }
