@@ -48,6 +48,15 @@
 </nav>
         @show
         
+        
+        <div class="container" style="margin-top: 15vw;">
+            @yield('summary') <!-- implementare sommario dei corsi, nella sezione dedicata a quel determinato articolo -->
+        </div>
+
+        <div class="container">
+            @yield('content') <!-- articolo se sono in un articolo, cards di presentazione se sono nell'indice -->
+        </div>
+        
         @section('about')
         @if($users)
             <div class="container" style="margin-top: 15vw;" id="chi-siamo">
@@ -86,14 +95,6 @@
             <!--nothing to show -->
             @endif
           @show
-        
-        <div class="container" style="margin-top: 15vw;">
-            @yield('summary') <!-- implementare sommario dei corsi, nella sezione dedicata a quel determinato articolo -->
-        </div>
-
-        <div class="container">
-            @yield('content') <!-- articolo se sono in un articolo, cards di presentazione se sono nell'indice -->
-        </div>
         
         @section('footer')
             <!-- Footer -->
