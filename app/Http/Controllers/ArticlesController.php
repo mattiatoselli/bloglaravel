@@ -17,8 +17,11 @@ class ArticlesController extends Controller
         'body' => ['required', 'string', 'min:255'],
         ]);
         $article = new Article();
-        $article->title = request('title');
-        $article->body = request('body');
-        dd($user);
+        $article->title         = request('title');
+        $article->body          = request('body');
+        $article->userId        = Auth::user()->id();
+        $article->state         = 1;
+        $article->argumentId    = request('argument');
+        dd($article);
     }
 }
