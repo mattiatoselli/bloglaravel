@@ -16,6 +16,7 @@ class ArticlesController extends Controller
         $validatedData = request()->validate([
         'title' => ['required', 'string', 'max:80', 'min:12'],
         'body' => ['required', 'string', 'min:255'],
+        'argument' => ['required'],
         ]);
         $article = new Article();
         $article->title         = request('title');
@@ -23,6 +24,6 @@ class ArticlesController extends Controller
         $article->userId        = Auth::user()->id;
         $article->state         = 1;
         $article->argumentId    = request('argument');
-        dd($article);
+        $article->save();
     }
 }
