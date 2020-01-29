@@ -30,7 +30,7 @@ class UsersController extends Controller
         'name' => ['required', 'string', 'max:255', 'min:8'],
         'email' => ['required', 'string', 'email', 'max:255', 'unique:users,{id}'],
         'image'=> ['url'],
-        'description' => ['string', 'max:255'],
+        'description' => ['string', 'max:1000'],
         ]);
         $user = User::find($id);
         $user->name = request('name');
