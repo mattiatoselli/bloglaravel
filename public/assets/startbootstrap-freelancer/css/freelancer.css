@@ -290,6 +290,16 @@ button::-moz-focus-inner,
   border-style: none;
 }
 
+p > img {
+
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
 input[type="radio"],
 input[type="checkbox"] {
   box-sizing: border-box;
