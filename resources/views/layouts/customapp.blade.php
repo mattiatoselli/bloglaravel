@@ -19,7 +19,8 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/startbootstrap-freelancer/css/freelancer.css') }}">
         <style>
         body{
-        background-image: url({{ asset('assets/startbootstrap-freelancer/img/kernel-panic.png') }})
+                background: rgb(103,252,209);
+                background: radial-gradient(circle, rgba(103,252,209,0.8421569311318278) 0%, rgba(241,241,241,1) 100%); 
         }
         </style>
     </head>
