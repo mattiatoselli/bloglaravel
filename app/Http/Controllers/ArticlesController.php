@@ -27,4 +27,10 @@ class ArticlesController extends Controller
         $article->save();
         return redirect('/');
     }
+    
+    public function view($id)
+    {
+        $article = Article::find($id);
+        return view('article', ['article' => $article]);
+    }
 }
