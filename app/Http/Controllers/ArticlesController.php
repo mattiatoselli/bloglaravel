@@ -31,6 +31,6 @@ class ArticlesController extends Controller
     public function view($id)
     {
         $article = Article::find($id);
-        return view('article', ['article' => $article]);
+        return view('article', ['article' => $article, 'users'=>'',]);
     }
 }
