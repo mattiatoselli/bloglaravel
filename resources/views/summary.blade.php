@@ -14,7 +14,7 @@
 <h1>{{ $argument->title }}</h1>
 <p class="mb-5" style="font-size:24px;">
 @foreach($articles as $article)
-<li><a href="/article/{{ $artcle->id }}"{{ $article->title }}</li>
+<li><a href="/article/{{ $article->id }}"{{ $article->title }}</li>
 @endforeach()
 </p>
 @else
