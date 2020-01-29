@@ -25,5 +25,6 @@ class ArticlesController extends Controller
         $article->state         = 1;
         $article->argumentId    = request('argument');
         $article->save();
+        return redirect('/');
     }
 }
