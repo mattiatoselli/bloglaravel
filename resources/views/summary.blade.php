@@ -13,7 +13,9 @@
 @if($argument)
 <h1>{{ $argument->title }}</h1>
 <p class="mb-5" style="font-size:24px;">
-<li>lista articoli</li>
+@foreach($articles as $article)
+<li>{{ $article->title }}</li>
+@endforeach()
 </p>
 @else
 <p>
