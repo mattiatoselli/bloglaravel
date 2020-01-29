@@ -20,7 +20,7 @@ class ArticlesController extends Controller
         $article = new Article();
         $article->title         = request('title');
         $article->body          = request('body');
-        $article->userId        = Auth::user()->id();
+        $article->userId        = Auth::user()->id;
         $article->state         = 1;
         $article->argumentId    = request('argument');
         dd($article);
