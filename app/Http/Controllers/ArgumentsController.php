@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Argument;
 use App\User;
+use App\Article;
 
 class ArgumentsController extends Controller
 {
@@ -12,7 +13,12 @@ class ArgumentsController extends Controller
     {
         $staff = User::where('staffrole', '1')->get();
         $argument = Argument::find($id);
-        return view('summary', ['users' => $staff, 'argument' => $argument]);
+        $articles = Article::where('argumentId', $id)->get();
+        return view('summary', [
+            'users' => $staff, 
+            'argument' => $argument,
+            'articles' => $articles,
+        ]);
     }
     
     public function store()
