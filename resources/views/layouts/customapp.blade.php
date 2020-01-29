@@ -19,8 +19,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/startbootstrap-freelancer/css/freelancer.css') }}">
         <style>
         body{
-                background: rgb(103,252,209);
-                background: radial-gradient(circle, rgba(103,252,209,0.8421569311318278) 0%, rgba(241,241,241,1) 100%); 
+                background-image: url("https://r1.ilikewallpaper.net/ipad-air-wallpapers/download/32754/Lollipop-Background-Simple-Flat-Material-Pattern-iPad-4-wallpaper-ilikewallpaper_com.jpg"); 
         }
         </style>
     </head>
