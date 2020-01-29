@@ -9,7 +9,7 @@
 
 
 @section('summary')
-<div class="container" style="background-color:white; border-radius:10px;padding:20px;">
+<div class="container" style="background-color:white; border-radius:10px;padding:20px;margin-bottom:20vw;">
 <h1 style="color:green;">{{ $article->title }}</h1>
 <hr>
 <p class="mb-5" style="font-size:24px;">
