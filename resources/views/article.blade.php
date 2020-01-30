@@ -12,9 +12,9 @@
 <div class="container" 
     style="background-color: white;
     border-radius: 10px;
-    padding: 10vw;
+    padding: 14vw;
     margin-bottom: 10vw;
-    box-shadow: 3px 3px 50px 8px grey;
+    box-shadow: 3px 3px 50px 8px black;
     font-size: larger;">
 <h1 style="color:green;">{{ $article->title }}</h1>
 <hr>
