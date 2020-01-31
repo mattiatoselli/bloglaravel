@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+@if(Auth::user()->staffrole)
 <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -111,4 +112,7 @@
             </div>
         </div>
     </div>
+ @else
+ Benvenuto, ora puoi commentare.
+ @endif
 @endsection
