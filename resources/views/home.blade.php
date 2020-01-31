@@ -36,9 +36,7 @@
                         </div>
                         
                         <div class="form-group row">
-                            <label for="body" class="col-md-8 col-form-label text-md-right">Articolo</label>
-
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                             <textarea id="body" class="form-control @error('body') is-invalid @enderror" name="body" class="form-control" rows="3" required autofocus>{{ old('body') }}</textarea>
                                 
 
