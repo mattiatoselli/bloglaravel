@@ -33,4 +33,10 @@ class ArticlesController extends Controller
         $article = Article::find($id);
         return view('article', ['article' => $article, 'users'=>'',]);
     }
+    
+    public function getUserArticles()
+    {
+        $articles = Article::where('userid', Auth::user()->id);
+        return view('myArticles', ['articles' => $articles,]);
+    }
 }
