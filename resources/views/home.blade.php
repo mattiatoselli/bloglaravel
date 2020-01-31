@@ -5,7 +5,7 @@
             <div class="card">
                 <div class="card-header">Scrivi un nuovo articolo</div>
                 <div class="card-header">
-                Consiglio: se devi implementare del codice, usa il tag tag "code" all'internod di un paragrafo.
+                Consiglio: se devi implementare del codice, usa il tag tag "code" all'interno di un paragrafo.
                 </div>
 
                 <div class="card-body">
