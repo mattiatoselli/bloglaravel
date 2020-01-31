@@ -57,6 +57,9 @@
                                 <a class="nav-item dropdown" href="users/{{ Auth::user()->id }}/edit">
                                     Modifica profilo
                                 </a>
+                                <a class="nav-item dropdown" href="myarticles">
+                                    I tuoi articoli
+                                </a>
                                     <a href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
