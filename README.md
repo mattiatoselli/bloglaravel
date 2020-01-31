@@ -8,10 +8,10 @@
 </p>
 
 ## Todo next
-- configurare file blade home in modo che solo lo staff abbia accesso alle funzioni di creazione
 - inserire funzioni di modifica e cancella articolo
 - inserire middleware che permetta solo allo user proprietario dell'articolo di eseguire tali operazioni, o agli user di livello 2 (1=staff, 2=superadmin), il 3 non serve perchè sono io che h gli accessi ssh alla macchina lol.
-
+## Done
+- inserito sommario degli articoli scritti per lo staff
 ## Link alla macchina
 
 - [link](http://34.254.178.229).
