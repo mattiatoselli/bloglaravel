@@ -5,8 +5,7 @@
             <div class="card">
                 <div class="card-header">Scrivi un nuovo articolo</div>
                 <div class="card-header">
-                Consiglio: se devi implementare del codice, circondalo coi tag "pre" e "code"
-                in questo modo manterrai l'identazione del codice nell'articolo.
+                Consiglio: se devi implementare del codice, usa il tag tag "code" all'internod di un paragrafo.
                 </div>
 
                 <div class="card-body">
@@ -37,10 +36,10 @@
                         </div>
                         
                         <div class="form-group row">
-                            <label for="body" class="col-md-4 col-form-label text-md-right">Articolo</label>
+                            <label for="body" class="col-md-8 col-form-label text-md-right">Articolo</label>
 
                             <div class="col-md-6">
-                            <textarea id="body" class="form-control @error('body') is-invalid @enderror" name="body" class="form-control" rows="3">Inserisci un bell'articolo...</textarea>
+                            <textarea id="body" class="form-control @error('body') is-invalid @enderror" name="body" class="form-control" rows="3" required autofocus>{{ old('body') }}</textarea>
                                 
 
                                 @error('body')
