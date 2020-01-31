@@ -57,7 +57,7 @@
                                 <a class="nav-item dropdown" href="users/{{ Auth::user()->id }}/edit">
                                     Modifica profilo
                                 </a>
-                                <a class="nav-item dropdown" href="myarticles">
+                                <a class="nav-item dropdown" href="{{ route('myArticles') }}">
                                     I tuoi articoli
                                 </a>
                                     <a href="{{ route('logout') }}"
