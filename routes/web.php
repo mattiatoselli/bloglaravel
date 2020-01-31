@@ -26,3 +26,4 @@ Route::post('argument', 'ArgumentsController@store')->name('storeArgument');
 //articoli
 Route::get('article/{id}', 'ArticlesController@view');
 Route::post('article', 'ArticlesController@store')->name('storeArticle');
+Route::get('myarticles', 'ArticlesController@getUserArticles')->name('myArticles');
