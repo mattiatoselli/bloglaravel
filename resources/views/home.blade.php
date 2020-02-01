@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-@if(Auth::user()->staffrole)
 <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -10,7 +9,7 @@
                 </div>
 
                 <div class="card-body">
-                    <form method="POST" action="/article">
+                    <form method="POST" action="article">
                         @csrf
                         <div class="form-group row">
                             <label for="argument" class="col-md-4 col-form-label text-md-right">Argomento</label>
@@ -111,8 +110,4 @@
                 </div>
             </div>
         </div>
-    </div>
- @else
- Benvenuto, ora puoi commentare.
- @endif
 @endsection
