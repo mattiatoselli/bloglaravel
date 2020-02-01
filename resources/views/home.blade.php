@@ -1,10 +1,5 @@
 @extends('layouts.app')
 <style>
-img {
-    width: 100%;
-    padding: 20px;
-    vertical-align: middle;
-}
 </style>
 @section('content')
 <div class="row justify-content-center">
