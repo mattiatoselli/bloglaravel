@@ -12,6 +12,7 @@
 <div class="container" style="background-color:white; border-radius:10px;">
 @if($argument)
 <h1>{{ $argument->title }}</h1>
+<hr>
 <p class="mb-5" style="font-size:24px;">
 @foreach($articles as $article)
 <h3><a href="/article/{{ $article->id }}">{{ $article->title }}</a></h3>
