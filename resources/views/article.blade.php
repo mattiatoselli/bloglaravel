@@ -1,4 +1,11 @@
 @extends('layouts.customapp')
+<style>
+img {
+    width: 100%;
+    padding: 20px;
+    vertical-align: middle;
+}
+</style>
 
 @section('title', 'Page Title')
 
