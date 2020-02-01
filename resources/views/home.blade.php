@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="card-body">
-                    <form method="GET" action="article">
+                    <form method="POST" action="/article">
                         @csrf
                         <div class="form-group row">
                             <label for="argument" class="col-md-4 col-form-label text-md-right">Argomento</label>
