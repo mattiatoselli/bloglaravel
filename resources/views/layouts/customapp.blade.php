@@ -11,7 +11,7 @@
         Vuoi conoscere meglio i servizi di Amazon Web Service? Segui i miei tutorial.
         Impara a sviluppare con Laravel e Vuejs applicazioni professionali, scattanti e gradevoli.">
         <meta name="author" content="Mattia Toselli">
-        <title>App Name - @yield('title')</title>
+        <title>@yield('title')</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="{{ asset('assets/startbootstrap-freelancer/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
