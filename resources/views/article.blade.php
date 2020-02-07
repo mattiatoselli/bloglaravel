@@ -7,7 +7,7 @@ img {
 }
 </style>
 
-@section('title', 'Page Title')
+@section('title', 'Kernel Ninjas')
 
 @section('navbar')
 @parent
