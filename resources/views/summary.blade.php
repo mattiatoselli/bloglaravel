@@ -1,6 +1,6 @@
 @extends('layouts.customapp')
 
-@section('title', 'Page Title')
+@section('title', 'Kernel Ninjas - Sommario')
 
 @section('navbar')
 @parent
